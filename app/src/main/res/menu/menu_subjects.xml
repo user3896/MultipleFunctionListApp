@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <item
+        android:id="@+id/azsort"
+        android:title="Sırala"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:icon="@drawable/ic_baseline_sort_by_alpha_24"
+        />
+    <item
+        android:id="@+id/actionSearch"
+        android:icon="@android:drawable/ic_search_category_default"
+        android:title="Search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView" />
+</menu>
